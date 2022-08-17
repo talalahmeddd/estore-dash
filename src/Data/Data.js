@@ -13,29 +13,6 @@ import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
 import { keyboard } from "@testing-library/user-event/dist/keyboard";
 
 
-// Sidebar Data
-export const SidebarData = [{
-        icon: UilEstate,
-        heading: "Dashboard",
-    },
-    {
-        icon: UilClipboardAlt,
-        heading: "Orders",
-    },
-    {
-        icon: UilUsersAlt,
-        heading: "Customers",
-    },
-    {
-        icon: UilPackage,
-        heading: 'Products'
-    },
-    {
-        icon: UilChart,
-        heading: 'Analytics'
-    },
-];
-
 // Analytics Cards Data
 export const cardsData = [{
         title: "Sales",

@@ -1,0 +1,39 @@
+.navBar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 4rem;
+    transition: all 300ms ease;
+    font-size: 24px;
+    background: linear-gradient(90deg, rgba(110, 94, 254) 0%, rgba(73, 63, 255, 1)100%);
+    /* height: 100%; */
+}
+
+.nav-menu {
+    list-style: none;
+    font-size: 27px;
+    margin-top: 15px;
+    line-height: 250%;
+    text-decoration: none;
+}
+
+.list {
+    color: white;
+    text-decoration: none;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.menu {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    font-weight: bold;
+    font-size: 36px;
+    justify-content: center;
+    color: orange;
+}
